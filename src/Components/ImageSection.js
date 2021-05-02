@@ -5,14 +5,12 @@ function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt=""/>
+                <img src={about} alt="" />
             </div>
             <div className="about-info">
-                <h4>I am<span> Lorem Ipsum</span></h4>
+                <h4>I am<span> Rakibul Islam</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                    I am a student of Mathematics but programming is my interset. I am some much expert in the development and desinging field. I am created many customer friendly and looking good design.
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -21,18 +19,17 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                        <p>Countries</p>
+                        <p>Country</p>
                     </div>
                     <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
+                        <p>: Rakibul Islam Sarker</p>
+                        <p>: 23</p>
+                        <p>: Bangaldeshi</p>
+                        <p>: Bangla, English</p>
+                        <p>: Manda, Mugda, Dhaka-1214</p>
+                        <p>: Bangladesh</p>
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
             </div>
         </div>
     )
