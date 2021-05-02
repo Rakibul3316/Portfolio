@@ -3,9 +3,9 @@ import Tittle from '../Components/Tittle'
 import ImageSection from '../Components/ImageSection';
 import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import frontEnd from '../img/front-end.png';
+import BackEnd from '../img/back-end.png';
+import responsive from '../img/res.png';
 
 function AboutPage() {
     return (
@@ -27,13 +27,13 @@ function AboutPage() {
 
             <Tittle title={'Services'} span={'Services'} />
             <div className="servives-container">
-                <ServicesSection image={design} title={'Front-End Web Development'}
+                <ServicesSection image={frontEnd} title={'Front-End Web Development'}
                     text={'I am to much experience in this field.'}
                 />
-                <ServicesSection image={gamedev} title={'Back-End Web Development'}
+                <ServicesSection image={BackEnd} title={'Back-End Web Development'}
                     text={'I was developed many REST Api using Node, Experss, MongoDB, Mongoose'}
                 />
-                <ServicesSection image={intelligence} title={'Responsive Web desing'}
+                <ServicesSection image={responsive} title={'Responsive Web desing'}
                     text={'I built 10+ responsive websites. '}
                 />
             </div>

@@ -1,81 +1,35 @@
-import port1 from '../img/portImages/maya-1.jpg';
-import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
+import port1 from '../img/portImages/refit.png';
+import port2 from '../img/portImages/wahtsApp.png';
+import port3 from '../img/portImages/bookShop.png';
 
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
-        link1: 'www.youtube.com',
+        link1: 'https://complete-website-assign-11.web.app/ ',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Live',
+        icon2: 'Git',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Ecommerce Computer & Mobile servicing center'
     },
     {
         id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
+        link1: '',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Live',
+        icon2: 'Git',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: "What's App Clone"
     },
     {
         id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
+        link1: 'https://full-stack-client-assign-10.web.app/',
         link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        icon1: 'Live',
+        icon2: 'Git',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'Ecommer Book Shop'
     },
-    {
-        id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
-    },
-    {
-        id: 5,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port6,
-        title: 'Getting Started With React'
-    },
-    {
-        id: 6,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port7,
-        title: 'Vanilla Javascript Website'
-    },
-    {
-        id: 7,
-        category: 'Test Port',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
-    }
 ]
 
 export default portfolios;

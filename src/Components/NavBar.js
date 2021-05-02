@@ -40,7 +40,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @2021 Lorem Ipsum
+                        @copyright all rights Reserved Rakibul's
                     </p>
                 </footer>
             </nav>
